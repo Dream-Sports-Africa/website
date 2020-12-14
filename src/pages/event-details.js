@@ -1,17 +1,18 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Layout from "../components/layout";
-import HeaderOne from "../components/header/header-one";
+import Header from "../components/header/header";
 import StickyHeader from "../components/header/sticky-header";
 import PageHeader from "../components/page-header";
 import Footer from "../components/footer";
+import SocialLinks from "../components/social-links";
 
 import detailsImage from "../assets/images/events/event-details-1-1.jpg";
 
 const EventDetails = () => {
   return (
-    <Layout pageTitle="Event Details Page || Azino || Charity React Next Template">
-      <HeaderOne />
+    <Layout pageTitle="Event Details Page || Dream Sports Africa">
+      <Header />
       <StickyHeader />
       <PageHeader title="Event Details" crumbTitle="Event Details" />
       <>
@@ -58,18 +59,7 @@ const EventDetails = () => {
                     <li>New York</li>
                   </ul>
                   <div className="event-infos__social">
-                    <a href="#none">
-                      <i className="fab fa-twitter"></i>
-                    </a>
-                    <a href="#none">
-                      <i className="fab fa-facebook-square"></i>
-                    </a>
-                    <a href="#none">
-                      <i className="fab fa-pinterest-p"></i>
-                    </a>
-                    <a href="#none">
-                      <i className="fab fa-instagram"></i>
-                    </a>
+                    <SocialLinks />
                   </div>
                 </div>
               </Col>

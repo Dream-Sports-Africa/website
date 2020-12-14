@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import BlockTitle from "../block-title";
+import SocialLinks from '../social-links';
 
 const ContactFormOne = () => {
   return (
@@ -19,18 +20,7 @@ const ContactFormOne = () => {
                 time.{" "}
               </p>
               <div className="footer-social black-hover">
-                <a href="#none" aria-label="twitter">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#none" aria-label="facebook">
-                  <i className="fab fa-facebook-square"></i>
-                </a>
-                <a href="#none" aria-label="pinterest">
-                  <i className="fab fa-pinterest-p"></i>
-                </a>
-                <a href="#none" aria-label="instagram">
-                  <i className="fab fa-instagram"></i>
-                </a>
+                <SocialLinks />
               </div>
             </div>
           </Col>

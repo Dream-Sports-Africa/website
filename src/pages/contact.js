@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../components/layout";
-import HeaderOne from "../components/header/header-one";
+import Header from "../components/header/header";
 import StickyHeader from "../components/header/sticky-header";
 import PageHeader from "../components/page-header";
 import GoogleMap from "../components/google-map";
@@ -10,8 +10,8 @@ import Footer from "../components/footer";
 
 const Contact = () => {
   return (
-    <Layout pageTitle="Contact Page || Azino || Charity React Next Template">
-      <HeaderOne />
+    <Layout pageTitle="Contact Page || Dream Sports Africa">
+      <Header />
       <StickyHeader />
       <PageHeader title="Contact Page" crumbTitle="Contact Us" />
       <ContactFormOne />

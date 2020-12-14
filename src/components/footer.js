@@ -5,6 +5,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import logoLight from "../assets/images/logo-light.png";
 import blogPost1 from "../assets/images/resources/footer-img-1-1.jpg";
 import blogPost2 from "../assets/images/resources/footer-img-1-2.jpg";
+import SocialLinks from './social-links';
 
 const Footer = () => {
   return (
@@ -142,20 +143,9 @@ const Footer = () => {
           >
             <i className="far fa-angle-up"></i>
           </ScrollLink>
-          <p>© Copyright 2020 by Layerdrops.com</p>
+          <p>© Copyright 2020 by DreamSportsAfrica.com</p>
           <div className="footer-social">
-            <a href="#none" aria-label="twitter">
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a href="#none" aria-label="facebook">
-              <i className="fab fa-facebook-square"></i>
-            </a>
-            <a href="#none" aria-label="pinterest">
-              <i className="fab fa-pinterest-p"></i>
-            </a>
-            <a href="#none" aria-label="instagram">
-              <i className="fab fa-instagram"></i>
-            </a>
+            <SocialLinks />
           </div>
         </div>
       </div>

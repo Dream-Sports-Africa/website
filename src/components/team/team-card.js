@@ -1,4 +1,5 @@
 import React from "react";
+import SocialLinks from "../social-links";
 
 const TeamCard = ({ extraClass, image, name, designation }) => {
   return (
@@ -7,18 +8,7 @@ const TeamCard = ({ extraClass, image, name, designation }) => {
         <img src={image} alt="" />
       </div>
       <div className="team-card__social">
-        <a href="#none" aria-label="twitter">
-          <i className="fab fa-twitter"></i>
-        </a>
-        <a href="#none" aria-label="facebook">
-          <i className="fab fa-facebook-square"></i>
-        </a>
-        <a href="#none" aria-label="pinterest">
-          <i className="fab fa-pinterest-p"></i>
-        </a>
-        <a href="#none" aria-label="instagram">
-          <i className="fab fa-instagram"></i>
-        </a>
+        <SocialLinks />
       </div>
       <div className="team-card__content">
         <h3>{name}</h3>

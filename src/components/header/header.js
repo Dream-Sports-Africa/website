@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import { Container } from "react-bootstrap";
 import NavLinks from "./nav-links";
+import SocialLinks from "../social-links";
 
 import logoDark from "../../assets/images/logo-dark.png";
 
@@ -12,15 +13,7 @@ const HeaderTwo = () => {
         <Container>
           <p>Welcome to non profit charity platform</p>
           <div className="main-header__social">
-            <a href="#none" aria-label="facebook">
-              <i className="fab fa-facebook-square"></i>
-            </a>
-            <a href="#none" aria-label="instagram">
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a href="#none" aria-label="twitter">
-              <i className="fab fa-twitter"></i>
-            </a>
+            <SocialLinks />
           </div>
         </Container>
       </div>

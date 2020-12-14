@@ -24,10 +24,6 @@ const TeamData = [
       },
       {
         link: "#",
-        socialClass: "fab fa-pinterest-p"
-      },
-      {
-        link: "#",
         socialClass: "fab fa-instagram"
       }
     ]
@@ -45,10 +41,6 @@ const TeamData = [
       {
         link: "#",
         socialClass: "fab fa-facebook-square"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-pinterest-p"
       },
       {
         link: "#",
@@ -72,10 +64,6 @@ const TeamData = [
       },
       {
         link: "#",
-        socialClass: "fab fa-pinterest-p"
-      },
-      {
-        link: "#",
         socialClass: "fab fa-instagram"
       }
     ]
@@ -93,10 +81,6 @@ const TeamData = [
       {
         link: "#",
         socialClass: "fab fa-facebook-square"
-      },
-      {
-        link: "#",
-        socialClass: "fab fa-pinterest-p"
       },
       {
         link: "#",
