@@ -3,19 +3,19 @@ import Layout from "../components/layout";
 import Header from "../components/header/header";
 import StickyHeader from "../components/header/sticky-header";
 import PageHeader from "../components/page-header";
-import CausesPage from "../components/causes/causes-page";
+import ProgramsPage from "../components/programs/programs-page";
 import Footer from "../components/footer";
 
-const Causes = () => {
+const Programs = () => {
   return (
-    <Layout pageTitle="Causes Page || Dream Sports Africa">
+    <Layout pageTitle="Programs Page || Dream Sports Africa">
       <Header />
       <StickyHeader />
-      <PageHeader title="Causes Page" crumbTitle="Causes" />
-      <CausesPage />
+      <PageHeader title="Programs Page" crumbTitle="Programs" />
+      <ProgramsPage />
       <Footer />
     </Layout>
   );
 };
 
-export default Causes;
+export default Programs;

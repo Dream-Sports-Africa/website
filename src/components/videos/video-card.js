@@ -31,7 +31,7 @@ const VideoCard = () => {
           lives we touch never fade.
         </h3>
         <div className="video-card__btn-block">
-          <Link to="/cause-details" className="thm-btn dynamic-radius">
+          <Link to="/program-details" className="thm-btn dynamic-radius">
             Start Donating
           </Link>
 

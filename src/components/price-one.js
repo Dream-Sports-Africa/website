@@ -63,10 +63,10 @@ const PriceOne = () => {
               <div className="block-title">
                 <p>
                   <img src={heart} width="15" alt="" />
-                  Popular Causes
+                  Popular Programs
                 </p>
                 <h3>
-                  Donate to charity causes <br /> around the world.
+                  Donate to charity programs <br /> around the world.
                 </h3>
               </div>
               <p>

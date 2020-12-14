@@ -51,7 +51,7 @@ const Footer = () => {
                 <h3 className="footer-widget__title">Explore</h3>
                 <ul className="list-unstyled footer-widget__link-list">
                   <li>
-                    <Link to="/causes">Our Causes</Link>
+                    <Link to="/programs">Our Programs</Link>
                   </li>
                   <li>
                     <Link to="/about">About us</Link>
@@ -69,7 +69,7 @@ const Footer = () => {
                     <Link to="/contact">Help</Link>
                   </li>
                   <li>
-                    <Link to="/causes">Donate</Link>
+                    <Link to="/programs">Donate</Link>
                   </li>
                   <li>
                     <Link to="/contact">Contact us</Link>

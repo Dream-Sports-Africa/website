@@ -1,27 +1,27 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import causeImage1 from "../../assets/images/causes/cause-d-1-1.jpg";
+import causeImage1 from "../../assets/images/programs/program-d-1-1.jpg";
 import comment1 from "../../assets/images/blog/comment-1-1.jpg";
 import comment2 from "../../assets/images/blog/comment-1-2.jpg";
-import organizer1 from "../../assets/images/causes/organizer-1-1.jpg";
-import donor1 from "../../assets/images/causes/donor-1-1.jpg";
-import donor2 from "../../assets/images/causes/donor-1-2.jpg";
+import organizer1 from "../../assets/images/programs/organizer-1-1.jpg";
+import donor1 from "../../assets/images/programs/donor-1-1.jpg";
+import donor2 from "../../assets/images/programs/donor-1-2.jpg";
 
 const CauseContent = () => {
   return (
-    <section className="cause-details blog-details  pt-120 pb-40">
+    <section className="program-details blog-details  pt-120 pb-40">
       <Container>
         <Row>
           <Col md={12} lg={8}>
-            <div className="cause-details__content">
-              <div className="cause-card">
-                <div className="cause-card__inner">
-                  <div className="cause-card__image">
+            <div className="program-details__content">
+              <div className="program-card">
+                <div className="program-card__inner">
+                  <div className="program-card__image">
                     <img src={causeImage1} alt="" />
                   </div>
-                  <div className="cause-card__content">
-                    <div className="cause-card__top">
-                      <div className="cause-card__progress">
+                  <div className="program-card__content">
+                    <div className="program-card__top">
+                      <div className="program-card__progress">
                         <span
                           style={{ width: `66%` }}
                           className=" cardProgress"
@@ -31,7 +31,7 @@ const CauseContent = () => {
                           </b>
                         </span>
                       </div>
-                      <div className="cause-card__goals">
+                      <div className="program-card__goals">
                         <p>
                           <strong>Raised:</strong> $25,270
                         </p>
@@ -69,16 +69,16 @@ const CauseContent = () => {
                 text ever since the 1500s, when an unknown printer took a galley
                 of type and scrambled it to make a type specimen book.{" "}
               </p>
-              <div className="cause-card__bottom">
-                <a href="cause-details.html" className="thm-btn dynamic-radius">
+              <div className="program-card__bottom">
+                <a href="program-details.html" className="thm-btn dynamic-radius">
                   Donate Now
                 </a>
 
-                <a href="#none" className="cause-card__share">
+                <a href="#none" className="program-card__share">
                   <i className="azino-icon-share"></i>
                 </a>
               </div>
-              <div className="cause-details__presentations">
+              <div className="program-details__presentations">
                 <i className="fa fa-file-pdf"></i>
                 <h3>Our Presentation</h3>
                 <a href="#none" className="thm-btn dynamic-radius">
@@ -149,14 +149,14 @@ const CauseContent = () => {
             <div className="result"></div>
           </Col>
           <Col md={12} lg={4}>
-            <div className="cause-details__sidebar">
-              <div className="cause-details__organizer">
+            <div className="program-details__sidebar">
+              <div className="program-details__organizer">
                 <img src={organizer1} alt="" />
                 <p>Created 20 May, 2020</p>
                 <h3>
                   Organizer: <strong>Sarah Albert</strong>
                 </h3>
-                <ul className="list-unstyled cause-details__organizer-list">
+                <ul className="list-unstyled program-details__organizer-list">
                   <li>
                     <i className="fa fa-tag"></i>
                     <a href="#none">Education</a>
@@ -167,9 +167,9 @@ const CauseContent = () => {
                   </li>
                 </ul>
               </div>
-              <div className="cause-details__donations">
-                <h4 className="cause-details__donations-title">Donations</h4>
-                <ul className="list-unstyled cause-details__donations-list">
+              <div className="program-details__donations">
+                <h4 className="program-details__donations-title">Donations</h4>
+                <ul className="list-unstyled program-details__donations-list">
                   <li>
                     <img src={donor1} alt="" />
                     <p>$20</p>

@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import causeImage from "../assets/images/resources/featured-cause.jpg";
+import causeImage from "../assets/images/resources/featured-program.jpg";
 
 const FeaturedCause = () => {
   return (
-    <section className="featured-cause">
+    <section className="featured-program">
       <Container>
         <div className="inner-container background-secondary ">
           <Row>
@@ -18,15 +18,15 @@ const FeaturedCause = () => {
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry.
                 </p>
-                <div className="cause-card__top">
-                  <div className="cause-card__progress">
+                <div className="program-card__top">
+                  <div className="program-card__progress">
                     <span style={{ width: `85%` }} className=" cardProgress">
                       <b>
                         <i>85</i>%
                       </b>
                     </span>
                   </div>
-                  <div className="cause-card__goals">
+                  <div className="program-card__goals">
                     <p>
                       <strong>Raised:</strong> $25,270
                     </p>

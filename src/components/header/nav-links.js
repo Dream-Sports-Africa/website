@@ -40,16 +40,16 @@ const NavLinks = ({ extraClassName }) => {
         </ul>
       </li>
       <li className="dropdown">
-        <Link to="/causes">Causes</Link>
+        <Link to="/programs">Programs</Link>
         <button aria-label="dropdown toggler" onClick={handleDropdownStatus}>
           <i className="fa fa-angle-down"></i>
         </button>
         <ul className="dropdown-list">
           <li>
-            <Link to="/causes">Causes</Link>
+            <Link to="/programs">Programs</Link>
           </li>
           <li>
-            <Link to="/cause-details">Cause Details</Link>
+            <Link to="/program-details">Cause Details</Link>
           </li>
         </ul>
       </li>

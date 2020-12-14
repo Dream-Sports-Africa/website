@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import Header from "../components/header/header";
 import StickyHeader from "../components/header/sticky-header";
 import PageHeader from "../components/page-header";
-import CauseContent from "../components/causes/cause-content";
+import CauseContent from "../components/programs/program-content";
 import Footer from "../components/footer";
 
 const CauseDetails = () => {
