@@ -10,34 +10,6 @@ const NavLinks = ({ extraClassName }) => {
     <ul className={`main-menu__list ${extraClassName}`}>
       <li className="dropdown">
         <Link to="/">Home</Link>
-        <button aria-label="dropdown toggler" onClick={handleDropdownStatus}>
-          <i className="fa fa-angle-down"></i>
-        </button>
-        <ul className="dropdown-list">
-          <li>
-            <Link to="/">Home One</Link>
-          </li>
-          <li>
-            <Link to="/index-2">Home Two</Link>
-          </li>
-          <li className="dropdown">
-            <Link to="#">Header Styles</Link>
-            <button
-              aria-label="dropdown toggler"
-              onClick={handleDropdownStatus}
-            >
-              <i className="fa fa-angle-down"></i>
-            </button>
-            <ul className="dropdown-list">
-              <li>
-                <Link to="/">Header One</Link>
-              </li>
-              <li>
-                <Link to="/index-2">Header Two</Link>
-              </li>
-            </ul>
-          </li>
-        </ul>
       </li>
       <li className="dropdown">
         <Link to="/programs">Programs</Link>
@@ -49,7 +21,10 @@ const NavLinks = ({ extraClassName }) => {
             <Link to="/programs">Programs</Link>
           </li>
           <li>
-            <Link to="/program-details">Cause Details</Link>
+            <Link to="/naijacore">NaijaCore</Link>
+          </li>
+          <li>
+            <Link to="/nba">NBA Project Lagos</Link>
           </li>
         </ul>
       </li>
